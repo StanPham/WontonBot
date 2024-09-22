@@ -1,0 +1,28 @@
+{
+  "name": "wontonbot",
+  "version": "2.0.0",
+  "description": "DiscordJS Bot",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint ./",
+    "deploy-dev": "node deploy-commands-dev.js",
+    "deploy-global": "node deploy-commands-global.js",
+    "start" : "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.16.1",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "libsodium-wrappers": "^0.7.13"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "husky": "^9.0.11"
+  }
+}

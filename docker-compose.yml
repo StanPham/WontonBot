@@ -1,0 +1,5 @@
+version: '1'
+services:
+  app:
+    image: ghcr.io/stanpham/wontonbot/wontonbot:main
+    restart: always

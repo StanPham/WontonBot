@@ -13,4 +13,5 @@ RUN npm install
 COPY . /usr/src/bot
 
 # Start me!
+CMD ["node", "deploy-commands-global.js"]
 CMD ["node", "index.js"]

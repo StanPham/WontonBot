@@ -1,4 +1,5 @@
 FROM node:20
+RUN apk add  --no-cache ffmpeg
 
 # Create the directory!
 RUN mkdir -p /usr/src/bot

@@ -1,5 +1,5 @@
 FROM node:20
-RUN apk add  --no-cache ffmpeg
+RUN apt-get -y update && apt-get -y upgrade && apt-get install -y --no-install-recommends ffmpeg
 
 # Create the directory!
 RUN mkdir -p /usr/src/bot
